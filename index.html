@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="normalise.css" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-    <script src="ejscripts.js" type="text/javascript"></script>
+
 </head>
 <body>
 
@@ -24,7 +23,7 @@
 
             <a href="index.html"><button> home </button></a>
             <a href="about.html"><button id="about" > About   </button></a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfm8xP2Ay09NONdk2LE73dETW9DfuQkMRM71jk12IiH3wuL_g/viewform?usp=sf_link"> <button id="contact"> contact Us</button></a>
+            <a href="contactus.html"> <button id="contact"> contact Us</button></a>
             <a href="faq.html"><button id="gallery"> FAQ</button></a>
 
         </nav>
@@ -55,8 +54,7 @@
             <h4>Schools website design</h4>
             <img src="blk%20std%20career.jpg" width="140px">
             we design good web sites and online
-            solution for result/records processing,
-            that fits your school and  quality is assured.
+            solution that is best for your school and  quality is assured.
         </div>
 
         <div class="five columns">
@@ -85,6 +83,13 @@
                     by aplying for our programs and become
                     an authority whilst preparing for the future
             </div>
+
+        <div class="six columns">
+            <h4>mobile Apps dev</h4>
+            <img src="andriod.jpg" width="140px">
+            <p> we bring creativity to mobile app design
+                 let's make your's beautiful and extremely good .</p>
+        </div>
     </div>
     <div class="container" id="viewmore">
         <a href="about.html"><button class="button-primary">view more</button></a>
@@ -155,29 +160,29 @@
 <div class="container">
    <div>
     <h1>Do you have an idea or a project ?</h1>
-    <p>we are here to help out !</p>
+    <p>let's know about it !</p>
    </div>
 
     <div class="container">
 
         <form ACTION="" id="contactform" class="formsuccess">
             <label>name</label>
-            <input type="text" required id="username">
+            <input type="text"  id="username">
 
             <label>email</label>
-            <input type="text" required id="useremail">
+            <input type="text" id="useremail">
 
             <label>phone</label>
-            <input type="text" required id="phoneno">
+            <input type="text"  id="phoneno">
 
             <label>Brief</label>
-            <input type="text" required id="brief">
+            <input type="text"  id="brief">
 
             <input type="submit" id="submitform" value="submit">
         </form>
 
     </div>
-    <div class="sucess">
+    <div class="alert">
         Thank you we will get be to you soon!
     </div>
 </div>
@@ -260,6 +265,9 @@
             .appendTo('#slideshow');
     },  3000);
 </script>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script src="ejscripts.js" type="text/javascript"></script>
 </body>
 </html>
 
